@@ -7,7 +7,8 @@ fi
 
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install ant mercurial openjdk-7-jdk -y
+sudo apt-get install ant mercurial openjdk-7-jdk python-sqlalchemy -y
+sudo pip install bs4
 hg clone http://hg-iesl.cs.umass.edu/hg/mallet
 cd mallet
 ant
